@@ -1,7 +1,7 @@
+import Script from 'next/script';
 import { ThemeProvider } from 'next-themes';
 
 import '../styles/globals.css';
-
 import { Navbar, Footer } from '../components';
 
 export const App = ({ Component, pageProps }) => (
@@ -11,6 +11,7 @@ export const App = ({ Component, pageProps }) => (
       <Component {...pageProps} />
       <Footer />
     </div>
+    <Script src="https://kit.fontawesome.com/06081497c9.js" crossorigin="anonymous" />
   </ThemeProvider>
 );
 
