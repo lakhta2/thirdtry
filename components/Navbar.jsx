@@ -52,7 +52,7 @@ const ButtonGroup = ({ setActive, router }) => {
       classStyles="mx-2 rounded-xl"
       handleClick={() => {}}
     />
-);
+  );
 };
 
 const Navbar = () => {
@@ -106,7 +106,7 @@ const Navbar = () => {
         {isOpen
           ? (
             <Image
-              src={images.cross} 
+              src={images.cross}
               objectFit="contain"
               width={20}
               height={20}
