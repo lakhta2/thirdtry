@@ -32,14 +32,13 @@ const Footer = () => {
               <Button btnName="Email me" classStyles="rounded-md" />
             </div>
           </div>
+          {/* <div className="flexCenter border-b-8" /> {/* Addet for space between divs */}
         </div>
         <div className="flex-1 flexBetweenStart flex-wrap ml-10 md:ml-0 md:mt-8">
           <FooterLinks heading="CryptoKet" items={['Explore', 'HowItWorks', 'Contact Us']} />
           <FooterLinks heading="Support" items={['Help', 'Terms of Service', 'Legal', 'privacy Policy']} />
         </div>
       </div>
-
-
 
       <div className="flexCenter w-full mt-5 border-t dark:border-nft-black-1 border-nft-gray-1 sm:px-4 px-16">
         <div className="flexBetween flex-row w-full minmd:w-4/5 sm:flex-col mt-7"><p className="font-poppins dark:text-white text-nft-black-1 font-semibold text-base">CryptoKet, Inc. All Rights Reserved.</p>
